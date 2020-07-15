@@ -13,14 +13,15 @@ Mở foler src:
 Cài đặt môi trường cần thiết.
 > pip install -r requirements.txt
 
-Tải về dữ liệu và đặt vào thư mục data.
+Đặt dữ liệu vào thư mục data:<br>
+VLSP 2018: https://vlsp.org.vn/resources-vlsp2018 <br>
+Global Vector: https://nlp.stanford.edu/projects/glove/
+<br>
+data/vi.train<br>
+data/vi.cv<br>
+data/vi.test<br>
+data/glove.6B.100d.txt<br>
 
-.
-+-- data
-|   +-- vi.train
-|   +-- vi.cv
-|   +-- vi.test
-|   +-- glove.6B.100d.txt
 
 Chạy code thử nghiệm:
 > python demo_original.py
